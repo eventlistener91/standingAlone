@@ -14,7 +14,8 @@ public class HomeController {
 	 */
 	@RequestMapping(value = "mainView", method = RequestMethod.GET)
 	public ModelAndView home(ModelAndView andView) {
-		System.out.println("Controller");
+		//http://localhost:8080/main/mainView.do
+		System.out.println("mainView");
 		andView.setViewName("main/mainView");
 		return andView;
 	}

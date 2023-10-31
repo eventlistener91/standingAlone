@@ -5,6 +5,7 @@
 <tiles-definitions>
 
 	<!-- main -->
+<!-- 	<definition name="main/loginForm" template="/WEB-INF/views/main/loginForm.jsp"></definition> -->
 	<definition name="main/mainView" template="/WEB-INF/views/main/mainTemplate.jsp"></definition>
 	
 </tiles-definitions>
