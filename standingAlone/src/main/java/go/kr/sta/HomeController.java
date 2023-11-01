@@ -20,4 +20,12 @@ public class HomeController {
 		return andView;
 	}
 	
+	@RequestMapping(value = "loginForm", method = RequestMethod.GET)
+	public ModelAndView loginForm(ModelAndView andView) {
+		//http://localhost:8080/main/loginForm.do
+		System.out.println("loginForm");
+		andView.setViewName("main/loginForm");
+		return andView;
+	}
+	
 }
