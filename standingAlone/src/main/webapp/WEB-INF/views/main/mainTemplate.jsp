@@ -49,8 +49,8 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="${pageContext.request.contextPath}/assets/img/profile-jsm-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Joeng Su Min</a></h1>
+        <img src="${pageContext.request.contextPath}/assets/img/profile-jsmmi-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Jeong Su Min</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://www.instagram.com/dog.jeong/" class="instagram"><i class="bx bxl-instagram"></i></a>
           <a href="https://blog.naver.com/jsminmin0712" class="google-plus"><i class="bx bxl-skype"></i></a>
@@ -74,7 +74,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Joeng Su Min</h1>
+      <h1>Jeong Su Min</h1>
       <p><span class="typed" data-typed-items="I'm Developer, Welcome"></span></p>
     </div>
   </section><!-- End Hero -->
@@ -139,75 +139,73 @@
 	      <div class="row">
 	        <div class="col-lg-3 col-md-4">
 	          <div class="icon-box">
-	            <i class="ri-store-line" style="color: #ffbb2c;"></i>
+	            <img src="${pageContext.request.contextPath}/assets/img/skill/WebSquare5.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Websquare5</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
 	          <div class="icon-box">
-	            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+	            <img src="${pageContext.request.contextPath}/assets/img/skill/Bootstrap.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Bootstrap</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
 	          <div class="icon-box">
-	            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+	            <img src="${pageContext.request.contextPath}/assets/img/skill/jQuery.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>jQuery</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
 	          <div class="icon-box">
-	            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+	            <img src="${pageContext.request.contextPath}/assets/img/skill/iBATIS.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>iBATIS</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
 	          <div class="icon-box">
-	            <i class="ri-database-2-line" style="color: #47aeff;"></i>
+	            <img src="${pageContext.request.contextPath}/assets/img/skill/spring.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Spring</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
 	          <div class="icon-box">
-	            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+	            <img src="${pageContext.request.contextPath}/assets/img/skill/ajax.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Ajax</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
 	          <div class="icon-box">
-	            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+	            <img src="${pageContext.request.contextPath}/assets/img/skill/javascript.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>JavaScript</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
 	          <div class="icon-box">
-	            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+	            <img src="${pageContext.request.contextPath}/assets/img/skill/JSP.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>JSP</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
-	          <div style="float: left">
-	            <img src="${pageContext.request.contextPath}/assets/img/skill/Java.png" width="50px" height="50px"/>
-	          </div>
-	          <div style="atext-align: center; height:100%;">
+	          <div class="icon-box">
+	            <img src="${pageContext.request.contextPath}/assets/img/skill/Java.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Java</h5>
-              </div>
+	            </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
 	          <div class="icon-box">
-	            <i class="ri-disc-line" style="color: #b20969;"></i>
+	            <img src="${pageContext.request.contextPath}/assets/img/skill/oracle.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Oracle SQL</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
 	          <div class="icon-box">
-	            <i class="ri-base-station-line" style="color: #ff5828;"></i>
-	            <h5>Oracle DB</h5>
+	            <img src="${pageContext.request.contextPath}/assets/img/skill/mssql.png" width="50px" height="50px" style="margin:10px;"/>
+	            <h5>MS-SQL</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
 	          <div class="icon-box">
-	            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+	            <img src="${pageContext.request.contextPath}/assets/img/skill/Maven.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Maven</h5>
 	          </div>
 	        </div>
@@ -222,58 +220,63 @@
 
         <div class="section-title">
           <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title">학력</h3>
             <div class="resume-item pb-0">
-              <h4>Alex Smith</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
+              <h4>공주대학교(예산, 4년) 식품공학부 외식상품학과 </h4>
+              <h5>2010.02 - 2015.02</h5>
+              <h4>충남여자고등학교 </h4>
+              <h5>2007.02 - 2010.02</h5>
             </div>
-
-            <h3 class="resume-title">Education</h3>
+            <h3 class="resume-title">경험/활동/교육</h3>
             <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+              <h4>한국지능정보사회진흥원 표준프레임워크센터 </h4>
+              <h5>2023.01.09 - 2023.01.15</h5>
+              <p>전자전부 표준프레임워크 및 공통컴포넌트 개발자 실무 온라인 교육 </p>
             </div>
             <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
+              <h4>대덕인제개발원</h4>
               <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+              <h5>2021.11.20 - 2021.11.21</h5>
+              <p>Modern JavaScript 웹/앱 개발</p>
+            </div>
+            <div class="resume-item">
+              <h4>대덕인재개발원</h4>
+              <h5>2019.10 - 2020.06</h5>
+              <p>인공지능기반 응용SW 엔지니어링 실무과정</p>
+            </div>
+            <h3 class="resume-title">자격</h3>
+            <div class="resume-item pb-0">
+              <h4>SQL개발자(SQLD자격)</h4>
+              <h5>2021.06</h5>
+              <p>한국데이터베이스진흥센터</p>
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
+            <h3 class="resume-title">IT 경력</h3>
             <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>이포넷</h4>
+              <h5>2020.07 - 재직중</h5>
+              <p><em>프로젝트명 : 통합RCMS 운영 및 유지관리사업 </em></p>
+              <p>연계회사 : 한국산업기술기획평가원</p>
+              <p>수행기간</p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li>2차 : 2020.07 ~ 2021.04</li>
+                <li>3차 : 2021.05 ~ 2022.04</li>
+                <li>스마트고도화 : 2022.05 ~ 2022.12</li>
+                <li>범부처 통합 RCMS 유지관리사업 1차 : 2023.01 ~ 2023.12(진행중)</li>
               </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <p>프로젝트 내 담당 업무 : 사용기관 연계서버에 제공되는 웹 서비스 방식의 중계시스템 연계모듈 관리</p>
               <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                <li>통합 RCMS 연계모듈 신규설치 : 신규연계기관 연계서버에 통합 RCMS 연계모듈 설치 및 테스트 검증</li>
+                <li>통합 RCMS 연계모듈 관리 : 연계기관 내 연계서버의 연계모듈 및 데이터베이스 설정관리 </li>
+                <li>연계 기관 내 데이터베이스의 인터페이스 스키마 확인 등 </li>
+                <li>연계모듈 사용 시 발생하는 오류 모니터링, 확인 및 개선 (소스수정, 테스트 및 배포 )</li>
+                <li>연계 데이터 관리 : 연계기관 송수신 데이터 확인 및 관리</li>
+                <li>연계 기관 관리 : 기관 별 통신상태, client버전, 기관 담당자, 연계단계등 기관별 정보 관리</li>
               </ul>
             </div>
           </div>
@@ -295,9 +298,9 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">프로젝트 소개</li>
+              <li data-filter=".filter-card">개발환경</li>
+              <li data-filter=".filter-web">담당업무 관련</li>
             </ul>
           </div>
         </div>
@@ -306,20 +309,18 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-2.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
               </div>
             </div>
           </div>
