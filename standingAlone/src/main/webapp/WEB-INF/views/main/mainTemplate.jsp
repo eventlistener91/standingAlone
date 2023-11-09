@@ -138,73 +138,73 @@
         <div class="row skills-content">
 	      <div class="row">
 	        <div class="col-lg-3 col-md-4">
-	          <div class="icon-box">
+	          <div class="icon-box-s">
 	            <img src="${pageContext.request.contextPath}/assets/img/skill/WebSquare5.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Websquare5</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-	          <div class="icon-box">
+	          <div class="icon-box-s">
 	            <img src="${pageContext.request.contextPath}/assets/img/skill/Bootstrap.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Bootstrap</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-	          <div class="icon-box">
+	          <div class="icon-box-s">
 	            <img src="${pageContext.request.contextPath}/assets/img/skill/jQuery.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>jQuery</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-	          <div class="icon-box">
+	          <div class="icon-box-s">
 	            <img src="${pageContext.request.contextPath}/assets/img/skill/iBATIS.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>iBATIS</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
-	          <div class="icon-box">
+	          <div class="icon-box-s">
 	            <img src="${pageContext.request.contextPath}/assets/img/skill/spring.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Spring</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
-	          <div class="icon-box">
+	          <div class="icon-box-s">
 	            <img src="${pageContext.request.contextPath}/assets/img/skill/ajax.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Ajax</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
-	          <div class="icon-box">
+	          <div class="icon-box-s">
 	            <img src="${pageContext.request.contextPath}/assets/img/skill/javascript.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>JavaScript</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
-	          <div class="icon-box">
+	          <div class="icon-box-s">
 	            <img src="${pageContext.request.contextPath}/assets/img/skill/JSP.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>JSP</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
-	          <div class="icon-box">
+	          <div class="icon-box-s">
 	            <img src="${pageContext.request.contextPath}/assets/img/skill/Java.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Java</h5>
 	            </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
-	          <div class="icon-box">
+	          <div class="icon-box-s">
 	            <img src="${pageContext.request.contextPath}/assets/img/skill/oracle.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Oracle SQL</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
-	          <div class="icon-box">
+	          <div class="icon-box-s">
 	            <img src="${pageContext.request.contextPath}/assets/img/skill/mssql.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>MS-SQL</h5>
 	          </div>
 	        </div>
 	        <div class="col-lg-3 col-md-4 mt-4">
-	          <div class="icon-box">
+	          <div class="icon-box-s">
 	            <img src="${pageContext.request.contextPath}/assets/img/skill/Maven.png" width="50px" height="50px" style="margin:10px;"/>
 	            <h5>Maven</h5>
 	          </div>
@@ -286,117 +286,51 @@
     </section><!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="hero-g" class="">
       <div class="container">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">프로젝트 소개</li>
-              <li data-filter=".filter-card">개발환경</li>
-              <li data-filter=".filter-web">담당업무 관련</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-2.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="${pageContext.request.contextPath}/assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
+		<div class="section-title">
+		  <h2>Project</h2>
+		</div>
+		<!-- ======= Hero Section ======= -->
+		<div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150" style="margin-top: 3%;">
+		  <div class="sectionTitle">
+		    <h1>RCMS<span>.</span></h1>
+		    <h2><em>RCMS(통합연구비관리시스템)는 국가 RND 예산을 실시간으로투명하게 관리하기 위해 한국산업기술기획평가원에서 구축하고 운영 중이며, 현재 중앙부처 8곳, 지방자치단체 1곳, 전문기관 19곳에서 사용하고 있다.</em></h2>
+		    <h2><em>RCMS는 연구개발예산 교부부터 연구비  집행, 결산 및 국고 반납까지 관리하여 효율적인 R&D 예산 관리를 지원한다.</em></h2>
+		  </div>
+		</div>
+		<div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+		  <div class="col-xl-2 col-md-4">
+		    <div class="icon-box">
+		      <img src="${pageContext.request.contextPath}/assets/img/project/rcmsPJ01.png" width="40px" height="40px"/>
+		      <h3><a href="">통합RCM를 통한 연구비 실시간 계좌이체</a></h3>
+		    </div>
+		  </div>
+		  <div class="col-xl-2 col-md-4">
+		    <div class="icon-box">
+		      <img src="${pageContext.request.contextPath}/assets/img/project/rcmsPJ02.png" width="40px" height="40px"/>
+		      <h3><a href="">실시간 연구비 집행부터 정산까지 온라인으로 처리</a></h3>
+		    </div>
+		  </div>
+		  <div class="col-xl-2 col-md-4">
+		    <div class="icon-box">
+		      <img src="${pageContext.request.contextPath}/assets/img/project/rcmsPJ03.png" width="40px" height="40px"/>
+		      <h3><a href="">전자증빙 및 연구비 필요증빙 온라인 등록관리</a></h3>
+		    </div>
+		  </div>
+		  <div class="col-xl-2 col-md-4">
+		    <div class="icon-box">
+		      <img src="${pageContext.request.contextPath}/assets/img/project/rcmsPJ04.png" width="40px" height="40px"/>
+		      <h3><a href="">통합RCMS 온라인 교육 및 가상의 체험환경 제공</a></h3>
+		    </div>
+		  </div>
+		  <div class="col-xl-2 col-md-4">
+		    <div class="icon-box">
+		      <img src="${pageContext.request.contextPath}/assets/img/project/rcmsPJ05.png" width="40px" height="40px"/>
+		      <h3><a href=""> 연구자 편의를 위한 AnyBank & AnyCard </a></h3>
+		    </div>
+		  </div>
+		</div>
       </div>
     </section><!-- End Portfolio Section -->
 
